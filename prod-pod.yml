@@ -5,6 +5,7 @@ metadata:
   namespace: networking
   labels:
     zone: prod
+    name: prod-app
 spec:
   containers:
   - name: prod
